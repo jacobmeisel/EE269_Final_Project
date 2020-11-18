@@ -1,4 +1,4 @@
-%% Load Raw Data From .CSV File%%
+%% Load Raw Data From .CSV File %%
 train = csvread('../Data/mitbih_train.csv');
 test = csvread('../Data/mitbih_test.csv');
 trainLabel = train(:,end);
@@ -44,4 +44,8 @@ for i= 1:size(test,1)
     end
     teWavS5(i,:) = dwt(test(i,:), 'sym5');
 end
-fprintf('All done!\n');        
+
+fprintf('All done!\n');
+
+%% Save Features %%
+save('all_features.m');
