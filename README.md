@@ -10,9 +10,9 @@ In this project, we aim to accurately classify normal (N) heartbeats from four d
 4) Unclassifiable beat (Q)
 
 ## Data Set
-We used the MIT-BIH arrhythmia [database](https://www.kaggle.com/shayanfazeli/heartbeat?select=mitbih_train.csv).
+We used the [MIT-BIH arrhythmia database](https://www.kaggle.com/shayanfazeli/heartbeat?select=mitbih_train.csv).
 
-Mohammad Kachuee, Shayan Fazeli, and Majid Sarrafzadeh. "ECG Heartbeat Classification: A Deep Transferable Representation." arXiv preprint arXiv:1805.00794 (2018).
+* Mohammad Kachuee, Shayan Fazeli, and Majid Sarrafzadeh. "ECG Heartbeat Classification: A Deep Transferable Representation." arXiv preprint arXiv:1805.00794 (2018).
 
 ## Features
 We used several features including:
@@ -38,5 +38,4 @@ We used several models including:
 ## Results
 The best classifier was KNN (k=3) with sym5 DWT features.
 The top classifiers were KNN and cubic SVM (with PCA) for raw waveform and DWT features.
-See the project [poster](https://drive.google.com/file/d/1pKp4gdpWvOgbXFXwuuydGk7LyDGKqDk0/view?usp=sharing
-), [presentation](https://drive.google.com/file/d/1oLLiuGJkwxZy312y3RXbC9OqykiouUYC/view?usp=sharing), and [report]() for more results and conclusions.
+See the project [poster](https://drive.google.com/file/d/1pKp4gdpWvOgbXFXwuuydGk7LyDGKqDk0/view?usp=sharing), [presentation](https://drive.google.com/file/d/1oLLiuGJkwxZy312y3RXbC9OqykiouUYC/view?usp=sharing), and [report]() for more results and conclusions.
