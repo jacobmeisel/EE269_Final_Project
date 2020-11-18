@@ -48,4 +48,4 @@ end
 fprintf('All done!\n');
 
 %% Save Features %%
-save('all_features.m');
+save('all_features.mat');
