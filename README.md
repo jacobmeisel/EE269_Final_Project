@@ -38,4 +38,4 @@ We used several models including:
 ## Results
 The best classifier was KNN (k=3) with sym5 DWT features.
 The top classifiers were KNN and cubic SVM (with PCA) for raw waveform and DWT features.
-See the project [poster](EE269 Poster.pdf), [presentation](https://drive.google.com/file/d/1oLLiuGJkwxZy312y3RXbC9OqykiouUYC/view?usp=sharing), and [report]() for more results and conclusions.
+See the project [poster](https://github.com/jacobmeisel/EE269_Final_Project/blob/main/EE269%20Poster.pdf), [presentation](https://drive.google.com/file/d/1oLLiuGJkwxZy312y3RXbC9OqykiouUYC/view?usp=sharing), and [report]() for more results and conclusions.
