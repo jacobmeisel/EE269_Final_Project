@@ -10,7 +10,7 @@ In this project, we aim to accurately classify normal (N) heartbeats from four d
 
 
 We used several models including:
-1) naive bayes
+1) Naive Bayes
 2) GMM (with PCA)
 3) KNN
 4) SVM (with PCA)
@@ -22,12 +22,12 @@ We used several features including:
 1) Raw ECG Waveform
 2) DFT Magnitude
 3) Discrete Wavelet Transform (DWT)
-   i) db4 wavelet
-   ii) sym5 wavelet
+i) db4 wavelet
+ii) sym5 wavelet
 4) Continuous Wavelet Transform (CWT)
-   i) 224 x 224 x 3 images
-   ii) 32 x 32 x 3 images
-   iii) 32 x 32 x 3 images using rotation, scaling, and reflection for data augmentation.
+i) 224 x 224 x 3 images
+ii) 32 x 32 x 3 images
+iii) 32 x 32 x 3 images using rotation, scaling, and reflection for data augmentation.
 
 
 See the project poster, presentation, and report for more details.
