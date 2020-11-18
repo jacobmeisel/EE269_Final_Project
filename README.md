@@ -12,7 +12,7 @@ In this project, we aim to accurately classify normal (N) heartbeats from four d
 ## Data Set
 We used the [MIT-BIH arrhythmia database](https://www.kaggle.com/shayanfazeli/heartbeat?select=mitbih_train.csv).
 
-* Mohammad Kachuee, Shayan Fazeli, and Majid Sarrafzadeh. "ECG Heartbeat Classification: A Deep Transferable Representation." arXiv preprint arXiv:1805.00794 (2018).
+* [Mohammad Kachuee, Shayan Fazeli, and Majid Sarrafzadeh. "ECG Heartbeat Classification: A Deep Transferable Representation." arXiv:1805.00794 (2018)](https://arxiv.org/abs/1805.00794).
 
 ## Features
 We used several features including:
