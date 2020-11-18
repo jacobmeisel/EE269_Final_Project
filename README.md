@@ -21,13 +21,13 @@ We used several models including:
 We used several features including:
 1) Raw ECG Waveform
 2) DFT Magnitude
-3) Discrete Wavelet Transform (DWT)
-i) db4 wavelet
-ii) sym5 wavelet
-4) Continuous Wavelet Transform (CWT)
-i) 224 x 224 x 3 images
-ii) 32 x 32 x 3 images
-iii) 32 x 32 x 3 images using rotation, scaling, and reflection for data augmentation.
+3) Discrete Wavelet Transform (DWT):
+  1. db4 wavelet
+  2. sym5 wavelet
+4) Continuous Wavelet Transform (CWT):
+  1. 224 x 224 x 3 images
+  2. 32 x 32 x 3 images
+  3. 32 x 32 x 3 images using rotation, scaling, and reflection for data augmentation.
 
 
 See the project poster, presentation, and report for more details.
